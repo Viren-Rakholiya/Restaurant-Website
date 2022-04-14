@@ -1,2 +1,2 @@
 # Restaurant-Website
-A website fore small restaurant.
+A website for small restaurant.
