@@ -47,6 +47,9 @@ nav a:hover{
   color: #F25C05;
   font-size: larger;
 }
+.active{
+  color: #F25C05;
+}
 .Heading_one{
   margin: 20px;
   text-align: center;
@@ -66,7 +69,7 @@ main{
 }
 .main_content h2{
   font-size: 20px;
-  color: #1F1E26;
+  color: #777777;
   font-weight: 600;
   line-height: 0px;
 }
@@ -103,14 +106,20 @@ main{
 .menu_container{
   text-align: center;
 }
+.menu_container .menu_heading{
+  margin-top: 120px;
+}
+.menu_container .menu_heading p{
+  color: #777777;
+}
 .menu_container .menu_heading h3{
   font-size: 20px;
   font-weight: 400;
-  color: #F25C05;
+  color: #777777;
   line-height: 0px;
 }
 .menu_container .menu_heading h2{
-  color: #1F1E26;
+  color: #F25C05;
 }
 .menu .menu_box{
   transition: 0.3s;
@@ -130,18 +139,24 @@ main{
 }
 .menu_box .box_content{
   text-align: center;
-  display: inline;
+  display: inline-block;
 }
 .menu_box .box_content h4{
 color: #1F1E26;
 font-size: 20px;
+}
+.menu_box .box_content p{
+  width: 80%;
+  margin: 20px auto;
 }
 .menu_box .box_content button{
   background-color: #F25C05;
   margin-bottom: 30px;
   border: none;
   height: 44px;
-  width: 40%;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #f2f2f2;
   border-radius: 10px;
   font-size: 16px;
@@ -189,11 +204,11 @@ font-size: 20px;
 .about .menu_heading h3{
   font-size: 20px;
   font-weight: 400;
-  color: #F25C05;
+  color: #777777;
   line-height: 0px;
 }
 .about .menu_heading h2{
-  color: #1F1E26;
+  color: #F25C05;
 }
 .about .menu_heading p{
   color: #777777;
@@ -213,14 +228,17 @@ font-size: 20px;
   text-align: center;
   margin-top: 40px;
 }
+.contact .menu_heading{
+  margin-top: 120px;
+}
 .contact .menu_heading h3{
   font-size: 20px;
   font-weight: 400;
-  color: #F25C05;
+  color: #777777;
   line-height: 0px;
 }
 .contact .menu_heading h2{
-  color: #1F1E26;
+  color: #F25C05;
 }
 .contact .menu_heading p{
   color: #777777;
@@ -249,9 +267,23 @@ font-size: 20px;
   transform: translateY(4px);
 }
 footer{
-  display: inline;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: #1F1E26;
+  width: 100%;
+}
+.footer_2 .copyright{ 
+  width: 100%;
+  height: 30px;
+  background-color: #F25C05;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+}
+.footer_2 .copyright p{
+  color: #F2f2f2;
+  margin: 20px;
 }
 footer .col{
   display: flex;
@@ -259,6 +291,7 @@ footer .col{
   align-items: flex-start;
   margin-bottom: 20px;
   text-align: center;
+  margin: 20px;
 }
 footer .logo h1{
   margin-bottom: 30px;
@@ -273,12 +306,12 @@ footer h4{
 footer p{
   font-size: 13px;
   margin: 0 0 8px 0;
-  color: #777777;
+  color: #f2f2f2;
 }
 footer a{
    font-size: 13px;
    text-decoration: none;  
-   color: #777777;
+   color: #f2f2f2;
    margin-bottom: 10px;
 }
 footer a:hover{
@@ -290,7 +323,7 @@ footer .follow{
    margin-top:20px;
 }
 footer .col i{
-  color: #777777;
+  color: #f2f2f2;
   padding-right: 4px;
   cursor: pointer;
 }
@@ -298,10 +331,6 @@ footer .col i:hover{
   color: #F25C05;
   transition: 0.5s ease;
   transform: translateY(4px);
-}
-footer .install .row img{
-  border: 1px solid #088178;
-  border-radius: 6px;
 }
 
 @media screen and (min-width: 757px){
@@ -339,13 +368,20 @@ footer .install .row img{
   }
   .main_container img{
     margin-top: 140px;
-    width: 30%;
+    width: 35%;
     float: right;
   }
   .menu_container .menu{
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .menu_container .menu_heading p{
+    width: 70%;
+    display: inline-flex;
+  }
+  .menu_container .menu_heading{
+    margin-top: 150px;
   }
   .menu .menu_box{
     width: 30%;
@@ -368,27 +404,25 @@ footer .install .row img{
   .about img{
     float: right;
     width: 30%;
+    margin-right: 20px;
   }
   .about .menu_heading{
     margin: 20px;
+  }
+  .about .menu_heading p{
+    margin: 20px;
+    width: 70%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
   }
   .contact .btn_contact{
     width: auto;
     padding-right: 20px;
     padding-left: 20px;
   }
-  footer{
-    display: flex;
-    justify-content: space-between;
-  }
-  footer .col{
-    display: flex;
-    margin-bottom: 20px;
-  }
-  .footer_2{
-    text-align: center;
-    align-items: center;
-    display: inline;
+  .contact .menu_heading{
+    margin-top: 120px;
   }
 
 }
