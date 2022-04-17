@@ -8,7 +8,7 @@ A website for small restaurant 'WingBoys'.
 
 2) **Viren Rakholiya:** Viren has worked on managing github, about.html, contact.html and respective CSS for their web pages and SEO.
 
-Throughout the final project, we had worked in a collaborative manner. 
+Throughout the final project, we had worked in a collaborative manner.
 
 
 **B. Design Principles**
@@ -36,4 +36,6 @@ To follow rules of accesibility compliance,
 We have used keywords and Content strategies for search engine optimisation (SEO), for that we have used optmised keywords at following places in entire website. 
 1) Headings
 2) In home and about us content
-3) Meta tags (keyword, description)
+3) Meta tags (keywords, description)
+
+This website will be going to live after modifying and adding more webpages for wingboys client at St.thomas, London Canada. 
