@@ -2,7 +2,7 @@
 A website for small restaurant 'WingBoys'.
 
 
-**Team Members:**
+**A. Team Members:**
 
 1) **Meet Miyani:** Meet has worked on designing of website(Figma is used for UI/UX), index.html, menu.html and respective CSS for their web pages and accessibility compliances.
 
@@ -11,7 +11,7 @@ A website for small restaurant 'WingBoys'.
 Throughout the final project, we had worked in a collaborative manner. 
 
 
-**Design Principles**
+**B. Design Principles**
 
 1) **Proximity:** Throughout the website, we have decided to keep relavant content, image and button together. 
 
