@@ -201,11 +201,33 @@ font-size: 20px;
   text-align: center;
   margin-top: 40px;
 }
+.about_page{
+  text-align: left;
+  margin-top: 40px;
+}
+.about_goal{
+  text-align: center;
+  margin-top: 100px;
+}
 .about .menu_heading h3{
   font-size: 20px;
   font-weight: 400;
   color: #777777;
   line-height: 0px;
+}
+.about_page .menu_heading{
+  margin-top: 80px;
+  text-align: left;
+}
+.about_page .menu_heading h2{
+  color: #F25C05;
+  font-weight: 700;
+  font-size: 30px;
+}
+.about_goal .goal_heading h2{
+  color: #F25C05;
+  font-weight: 700;
+  font-size: 30px;
 }
 .about .menu_heading h2{
   color: #F25C05;
@@ -213,7 +235,29 @@ font-size: 20px;
 .about .menu_heading p{
   color: #777777;
 }
+.about_goal .goal_heading p{
+  color: #777777;
+}
+.about_page .menu_heading p{
+  color: #777777;
+}
+.about_page .menu_heading h3{
+  color: #1F1E26;
+  font-size: 15px;
+  margin-top: 20px;
+}
 .about img{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.about_page img{
   width: 100%;
   border-radius: 10px;
   box-shadow:
@@ -332,6 +376,88 @@ footer .col i:hover{
   transition: 0.5s ease;
   transform: translateY(4px);
 }
+.availability_main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.availability_main .availability{
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: inline-flex;
+  height: 200px;
+  justify-content: center;
+  width: 200px;
+  margin: 10px;
+}
+.availability_main .availability p img{
+  height: 30%;
+  margin-top: 20px;
+}
+.availability_main .availability p{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form h2{
+  text-align: center;
+  color: #F25C05;
+}
+.master{
+  width: 100%;
+}
+form{
+  text-align: center;
+}
+.master form .input{
+
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.master form .input label{
+  width: 200px;
+  margin-right: 10px;
+  color: #232526;
+  font-size: 14px;
+
+}
+.master form .input ._input,
+.master form .input .message{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+.master form .input .btn{
+  background-color: #F25C05;
+  margin-bottom: 30px;
+  border: none;
+  height: 44px;
+  width: 40%;
+  color: #f2f2f2;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.master form .input .btn:hover{
+  background-color: #1F1E26;
+  transition: 0.5s ease;
+  transform: translateY(4px);
+}
+
+
 
 @media screen and (min-width: 757px){
   nav{
@@ -401,9 +527,22 @@ footer .col i:hover{
     align-items: center;
     justify-content: center;
   }
+  .about_page{
+    text-align: left;
+    margin-top: 130px;
+  }
+  .about_goal{
+    margin-top: 200px;
+    text-align: center;
+  }
   .about img{
     float: right;
     width: 30%;
+    margin-right: 20px;
+  }
+  .about_page img{
+    float: left;
+    width: 40%;
     margin-right: 20px;
   }
   .about .menu_heading{
@@ -424,5 +563,36 @@ footer .col i:hover{
   .contact .menu_heading{
     margin-top: 120px;
   }
-
+  .availability_main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 130px;
+  }
+  .availability_main .availability{
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: inline-flex;
+    height: 200px;
+    justify-content: center;
+    width: 200px;
+    margin: 20px;
+  }
+  .availability_main .availability p img{
+    width: 30%;
+  }
+  .availability_main .availability p{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .master{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form{
+    text-align: center;
+  }
 }

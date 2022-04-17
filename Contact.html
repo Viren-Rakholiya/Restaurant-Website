@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- External CSS -->
+     <link rel="stylesheet" href="./assets/css/styles.css">
+
+     <!-- Googlefonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Grand+Hotel&family=Poppins&display=swap" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+ 
+     <title>WingBoys Restaurant - The taste of tradition</title>
+</head>
+<body>
+    <!-- header -->
+        <nav>
+            <ul>
+                <li><a href="Home.html" class="logo"><h1>WingBoys</h1></a></li>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="Menu.html" >Menu</a></li>
+                <li><a href="About.html" >About Us</a></li>
+                <li><a href="Contact.html" class="active">Contact Us</a></li>
+                <li class="book"><a href="#" class="book_1">Book Table</a></li>
+
+            </ul>
+        </nav>
+    <!-- header complete -->
+
+    <main>
+        <section class="availability_main">
+            <div class="availability">
+                <p><img src="./assets/img/time.png" alt="Time"><br>
+                    <strong>10 AM - 7 PM</strong><br>
+                    Opening Hours
+                </p>
+            </div>
+            <div class="availability">
+                <p><img src="./assets/img/location.png" alt="Location"><br>
+                    <strong>St.Thomas</strong><br>
+                    Address
+                </p>
+            </div>
+        </section>
+
+    </main>
+        
+
+        <section class="form">
+            <h2>Contact Us</h2>
+          
+            <div class="master">
+
+                <form action="#">
+        
+                    <div class="input">
+                        <label for="name">First Name <span style="color: red;">*</span></label>
+                        <input class="_input" type="text" placeholder="First Name" name="Fname" id="Fname" required>
+                    </div>
+                    <div class="input">
+                        <label for="name">Last Name <span style="color: red;">*</span></label>
+                        <input class="_input" type="text" placeholder="Last Name" name="Lname" id="Lname" required>
+                    </div>
+        
+                    <div class="input">
+                        <label for="Email">Email</label>
+                        <input class="_input" type="email" placeholder="example@example.ca" id="Email" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="Subject">Subject</label>
+                        <input class="_input" type="text" placeholder="Subject" id="Subject" required>
+                    </div>
+        
+                    <div class="input">
+                        <label for="Phone">Phone</label>
+                        <input class="_input" type="tel" placeholder="123-123-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="Phone" required>
+                    </div>
+        
+                    <div class="input">
+        
+                        <label for="MessageType">Message Type</label>
+                        <select name="MessageType" id="messageType" class="_input">
+                            <option value="Inquiry">Inquiry</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Services">Request</option>
+                            <option value="Problems">Problems</option>
+                          </select>
+                          
+                    </div>
+        
+                    <div class="input">
+                        <label for="Message">Message<span style="color: red;">*</span></label>
+                        <textarea  class="message" id="message" required></textarea>
+                    </div>
+        
+                    <div class="input">
+                        <input type="button" value="Submit" class="btn" required>
+                    </div>
+                    
+                </form>
+        
+
+            </div>
+
+        </section>
+
+
+         <!-- Footer -->
+         <footer class="footer_1">
+            <div class="col">
+                <a class="logo"><h1>WingBoys</h1></a>
+            </div>
+    
+            <div class="col">
+                <h4>Contact</h4>
+                <p>St. Thomas, London ON Canada</p>
+                <p>+1 (226)977-7164</p>
+            </div>
+           
+                <div class="col">
+                    <h4>Links</h4>
+                    <a href="Home.html">Home</a>
+                    <a href="Menu.html">Menu</a>
+                    <a href="Booking.html">Book Table</a>
+                    <a href="Contact.html">Contact Us</a>
+                    <a href="About.html">About Us</a>
+                    <a href="Terms.html">Terms & Conditions</a>
+                    
+                </div>
+                <div class="col">
+                    <h4>Support</h4>
+                    <a href="Contact.html">Contact</a>
+                    <a href="Support.html">Support Center</a>
+                    <a href="Feedback.html">Feedback</a>
+                    <a href="Help.html">Help</a>
+                </div>
+                <div class="col">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="bx bxl-facebook"></i>
+                        <i class="bx bxl-instagram"></i>
+                        <i class="bx bxl-twitter"></i>
+                    </div>
+                </div>
+        </footer>  
+        <footer class="footer_2">
+            <div class="copyright"> 
+                <p>&#169; 2022 WingBoys. All right reserved</p>
+             </div>
+        </footer>
+        <!-- Footer Finish -->
+</body>
+</html>
