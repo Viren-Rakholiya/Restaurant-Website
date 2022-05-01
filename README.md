@@ -38,4 +38,4 @@ We have used keywords and Content strategies for search engine optimisation (SEO
 2) In home and about us content
 3) Meta tags (keywords, description)
 
-This website will be going to live after modifying and adding more webpages for wingboys client at St.thomas, London Canada. 
+This website will be going to live after modifying and adding more webpages for wingboys client at St.thomas, London Canada.
